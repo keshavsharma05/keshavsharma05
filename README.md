@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/top.svg" width="100%" alt="About Keshav Sharma" />
+  <img src="./assets/top.svg" width="100%" height="10%" alt="About Keshav Sharma" />
 </div>
 
 <br />
