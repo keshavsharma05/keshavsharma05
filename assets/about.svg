@@ -45,7 +45,7 @@
   }
 </style>
 <clipPath id="art-clip">
-  <rect x="508" y="98" width="452" height="380" rx="12"/>
+  <rect x="708" y="98" width="452" height="380" rx="12"/>
 </clipPath>
 <linearGradient id="scanGrad" x1="0" y1="0" x2="0" y2="1">
   <stop offset="0%" stop-color="#7ec3dd" stop-opacity="0"/>
