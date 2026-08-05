@@ -9,5 +9,4 @@
 <div align="center">
   <img src="./assets/techStack.svg" width="100%" alt="Technology stack" />
 </div>
-
 <br />
