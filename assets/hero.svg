@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="380" viewBox="0 0 1600 380">
+<style><![CDATA[
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Inter:wght@300;400&display=swap');
+:root{--bg:#0b0f14;--bd:#30363d;--t:#f5f5f5;--m:#a9afb7;--g:#69d66d;}
+.bg{fill:var(--bg);stroke:var(--bd);stroke-width:2}
+.sep{stroke:var(--bd);stroke-width:2}
+.mono{font-family:"JetBrains Mono",monospace}
+.inter{font-family:Inter,Arial,sans-serif}
+.big{font-size:72px;font-weight:300;fill:var(--t)}
+.small{font-size:20px;fill:var(--m)}
+.white{fill:var(--t)}
+.green{fill:var(--g)}
+.dim{fill:var(--m)}
+#clip rect{animation:type 2.2s steps(13,end) forwards}
+#cursor{animation:move 2.2s steps(13,end) forwards,blink 1s step-end infinite}
+@keyframes type{from{width:0}to{width:520px}}
+@keyframes move{from{transform:translateX(0)}to{transform:translateX(510px)}}
+@keyframes blink{50%{opacity:0}}
+]]></style>
+
+<rect x="4" y="4" width="1592" height="372" rx="24" class="bg"/>
+<line x1="4" y1="56" x2="1596" y2="56" class="sep"/>
+
+<circle cx="30" cy="30" r="7" fill="#ff5f57"/>
+<circle cx="52" cy="30" r="7" fill="#febc2e"/>
+<circle cx="74" cy="30" r="7" fill="#28c840"/>
+
+<text x="120" y="35" class="mono green" font-size="17">keshav@portfolio:~$</text>
+<text x="350" y="35" class="mono white" font-size="17">whoami</text>
+
+<text x="60" y="118" class="mono small">Hello, I'm</text>
+
+<clipPath id="clip">
+ <rect x="60" y="126" width="0" height="80"/>
+</clipPath>
+
+<text x="60" y="195" class="inter big" clip-path="url(#clip)">Keshav Sharma</text>
+
+<rect id="cursor" x="60" y="140" width="3" height="66" fill="#d8d8d8"/>
+
+<text x="60" y="250" class="mono" font-size="24">
+<tspan class="green">Full Stack Developer</tspan>
+<tspan class="dim"> building scalable web applications.</tspan>
+</text>
+
+<g class="mono" font-size="18" fill="#ddd">
+<text x="60" y="325">&lt;/&gt; MERN Stack</text>
+<text x="250" y="325">⚡ Problem Solver</text>
+<text x="470" y="325">&gt;_ Clean Code</text>
+<text x="675" y="325">◈ Detail Oriented</text>
+</g>
+
+<line x1="1085" y1="92" x2="1085" y2="330" class="sep"/>
+
+<g class="mono">
+<text x="1135" y="120" class="dim" font-size="18">Location</text>
+<text x="1135" y="144" class="white" font-size="20">Jaipur, India</text>
+<line x1="1125" y1="155" x2="1510" y2="155" class="sep"/>
+
+<text x="1135" y="205" class="dim" font-size="18">Email</text>
+<text x="1135" y="229" class="white" font-size="19">sharma62005@gmail.com</text>
+<line x1="1125" y1="240" x2="1510" y2="240" class="sep"/>
+
+<text x="1135" y="290" class="dim" font-size="18">Portfolio</text>
+<text x="1135" y="314" class="white" font-size="19">yourportfolio.dev</text>
+</g>
+</svg>
